@@ -16,5 +16,5 @@ cheese_and_crackers(amount_of_cheese , amount_of_cracker )
 print("We can even do maths inside too: ")
 cheese_and_crackers(10+20, 5+6)
 
-print("And we cancombine two, variables and do maths")
-
+print("And we can combine two, variables and do maths")
+cheese_and_crackers(amount_of_cheese + 100, amount_of_cracker + 1000)
