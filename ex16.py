@@ -4,7 +4,7 @@ script,filename=argv
 
 print(f"We're going to erase {filename}.")
 print("If you dont want that, hit CTRL-C(^C).")
-print("If you dont want that, hit RETURN")
+print("If you do want that, hit RETURN")
 
 input("?")
 
@@ -14,7 +14,7 @@ target = open(filename,'w')
 
 
 print("truncating the file...")
-target.turncate()
+target.truncate()
 
 print("Now i am going to ask you for three lines.")
 
