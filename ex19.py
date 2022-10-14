@@ -1,6 +1,6 @@
 def cheese_and_crackers(cheese_count,boxes_of_cracker):
     print(f"You have {cheese_count} cheese !")
-    print(f"You have {boxes_of_crackers} boxes of crackers !")
+    print(f"You have {boxes_of_cracker} boxes of crackers !")
     print(f"Man thats enough for a party !")
     print(f"Get a blanket. \n !")
 
@@ -8,8 +8,8 @@ print("We can just give the function number directly: ")
 cheese_and_crackers(20,30)
 
 print("OR, we can use variable from our script:")
-amount_of_cheese =10 
-amount_of_cracker =50 
+amount_of_cheese =int(input("Enter number of cheese :"))
+amount_of_cracker =int(input("Enter number of cracker:"))
 
 cheese_and_crackers(amount_of_cheese , amount_of_cracker )
 
