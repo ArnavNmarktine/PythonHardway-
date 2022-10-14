@@ -17,27 +17,17 @@ print("First lets print the whole file: \n  ")
 
 print_all(current_file)
 
+rewind(current_file)
 print("Now let's rewind, kind of like a tape.")
 
 rewind(current_file)
-
-print("lets print three lines: ")
-
-current_file= open(input_file)
-
-print("First lets print the whole file: \n")
-print_all(current_file)
-
-print("Now lets rewind, Kind of like a tape.")
-rewind(current_file)
-
 print("Lets print three lines: ")
 
 current_line =1 
-print(current_line,current_file)
+print_a_line(current_line,current_file)
 
 current_line =current_line+ 1 
-print(current_line,current_file)
+print_a_line(current_line,current_file)
 
 current_line =current_line + 1 
-print(current_line,current_file)
+print_a_line(current_line,current_file)
