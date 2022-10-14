@@ -11,18 +11,15 @@ input("?")
 print("Opening the file...")
 target = open(filename,'w')
 
-
-
 print("truncating the file...")
 target.truncate()
 
 print("Now i am going to ask you for three lines.")
 
-
 line1 = input("line 1: ")
 line2 = input("line 2: ")
 line3 = input("line 3: ")
-
+ 
 print("I'm going to write these to the file.")
 
 target.write(line1)
